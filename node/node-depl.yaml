@@ -17,6 +17,6 @@ spec:
       containers:
         - name: node
           imagePullPolicy: "Always"
-          image: duttaluri/nodeserver
+          image: duttaluri/nodeserver:latest
           ports:
             - containerPort: 3000
