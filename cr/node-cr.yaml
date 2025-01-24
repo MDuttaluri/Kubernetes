@@ -1,6 +1,7 @@
-apiVersion: nodeapps.inhouse.com/v1
+apiVersion: "inhouse.com/v1"
 kind: NodeApp
 metadata:
-  name: node-app-1
+  name: nodeapp
+  namespace: default
 spec:
   replicas: 1
